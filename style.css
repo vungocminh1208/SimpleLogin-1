@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right top, rgb(80,53,191), rgb(55,179,216));
+}
+
+.main {
+    background: linear-gradient(to right top, rgb(41,194,236), rgb(118,199,221));
+    min-height: 50vh;
+    width: 50%;
+    margin: 10rem 20rem;
+    border-radius: 2rem;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.login-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1{
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(to right top, rgb(12, 8, 26), rgb(55,179,216));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    margin: 2rem;
+}
+
+.submit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forgot-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    background: white;
+    height: 5rem;
+    width: 5rem;
+    background: linear-gradient(to right top, 
+    rgba(255, 255, 255, 0.7), 
+    rgba(255, 255, 255, 0.3));
+    position: absolute;
+    border-radius: 50%;
+    top: 1%;
+    left: 1%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: rgb(186, 5, 192);
+    font-size: 1rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+}
+
+label {
+    background: linear-gradient(to right top, rgb(80,53,191), rgb(55,179,216));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#username {
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 1rem;
+}
+
+#password {
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 1rem;
+}
+
+#login {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    background: linear-gradient(to right top, rgb(80,53,191), rgb(55,179,216));
+}
